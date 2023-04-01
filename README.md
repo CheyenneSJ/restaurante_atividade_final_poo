@@ -2,8 +2,7 @@
 
 Atividade final para aula de POO do curso de ADS.
 
-![20230331_212011](https://user-images.githubusercontent.com/103771613/229256239-22516869-aeb1-4a41-887f-0d7b753a550d.gif)
-
+![20230331_213406](https://user-images.githubusercontent.com/103771613/229256989-a8aadc0f-42f0-4cf7-8df9-0ac10568e72d.gif)
 
 ## Instruções para o projeto:
 Criar um programa de um restaurante/lanchonete.
