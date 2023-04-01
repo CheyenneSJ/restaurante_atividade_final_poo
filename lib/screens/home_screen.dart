@@ -116,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Container(
-              margin: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
+              margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
               width: double.infinity,
               height: 56,
               child: ElevatedButton(

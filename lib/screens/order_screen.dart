@@ -34,7 +34,7 @@ class OrderScreen extends StatelessWidget {
                   ),
                 )),
                 SizedBox(
-                  width: MediaQuery.of(context).size.width * 0.5,
+                  width: MediaQuery.of(context).size.width * 0.53,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: const [
@@ -84,8 +84,8 @@ class OrderScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(meal.quantity.toString()),
-                            Text(meal.price.toString()),
-                            Text(meal.totalPrice.toString()),
+                            Text('R\$ ${meal.price.toStringAsFixed(2)}'),
+                            Text('R\$ ${meal.totalPrice.toStringAsFixed(2)}'),
                           ],
                         ),
                       ),
